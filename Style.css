@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Noto Sans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#secao1{
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.signin1 a{
+    color: white;
+}
+
+.fundo img{
+    width: 100vw;
+    height: 50vh;
+}
+
+#conteudo{
+    background-image: url("./IMAGEM\ DOORDASH.webp");
+}
+
+.div1{
+    display: flex;
+    gap: 2vw;
+}
+
+.a1{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+}
+
+.a2{
+    color: black;
+    background-color: white;
+    border-radius: 160px;
+    border: none;
+    padding: 8px 22px;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.texto1{
+    font-size: 35px;
+}
+
+#secao2{
+    width: 100vw;
+    height:50vh;
+    display: flexbox;
+    justify-content: center;
+    justify-items:center;
+    align-content: center;
+    color: antiquewhite;
+}
+
+#secao2 input{
+    border-radius: 100px;
+    padding: 6px 100px;
+}
+
+#secao3{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+
+#secao3 a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.motoca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secao3 img{
+    width: 15vw;
+    height: 20vh;
+}
+
+#secao3 h3{
+    text-align: center;
+}
+
+#secao4{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#secao4 p{
+    text-align: left;
+}
+
+#secao4 button{
+    border-color: red;
+    border-style:solid;
+    border-radius: 160px;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.secao5{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    gap: 18px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.secao5 p{
+    margin-right: 20vw;
+}
+
+.secao5 button{
+    border-color: red;
+    border-style:solid;
+    border-radius: 160px;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.borda2{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+#divImagem1{
+    width: 35vw;
+    height: 30vh;
+}
+
+#divImagem1 img{
+    width: 35vw;
+}
+
+#divImagem2{
+    width: 35vw;
+    height: 30vh;
+}
+
+#divImagem2 img{
+    width: 35vw;
+}
+
+#borda{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.final{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: rgb(53, 49, 49);
+    font-size: smaller;
+    display: flexbox;
+}
+
+.final a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+#secao6{
+    display: flex;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ListaCidades{
+    display: flexbox;
+    column-count: 3;
+    column-width: 5px;
+}
+
+.ListaCozinhas{
+    display: block;
+    column-count: 2;
+}
+
+#secao6 a{
+    display: flex;
+    flex-direction: column;
+}
+
+#secao7{
+    display: flex;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 40vh;
+    margin-bottom: 3vh;
+    justify-content: space-around;
+}
+
+#secao7 a{
+    display: flex;
+    flex-direction: column;
+}
+
+#secao7 button{
+    display: flex;
+    flex-direction: column;
+    border-color: grey;
+    border-style:solid;
+    border-radius: 140px;
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    margin-left: 20vw;
+    width:60vw;
+    justify-content: space-around;
+}
+
+.termos{
+    display: flex;
+    gap: 1vw;
+}
+
+.iconesfti{
+    display: flex;
+    gap: 2vw;
+    cursor: pointer;
+}
